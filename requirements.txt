@@ -1,0 +1,19 @@
+# Core dependencies
+anthropic==0.39.0
+pyyaml==6.0.1
+python-dotenv==1.0.0
+requests==2.31.0
+
+# SharePoint integration
+Office365-REST-Python-Client==2.5.3
+
+# PDF processing
+pypdf2==3.0.1
+pdfplumber==0.11.0
+
+# Confluence integration
+atlassian-python-api==3.41.0
+
+# Logging and utilities
+tenacity==8.2.3
+colorlog==6.8.0
