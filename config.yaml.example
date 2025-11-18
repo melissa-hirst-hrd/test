@@ -1,0 +1,29 @@
+# Configuration file for Contract Data Extraction
+
+# SharePoint Configuration
+sharepoint:
+  site_url: "https://yourcompany.sharepoint.com/sites/YourSite"
+  client_id: "your-client-id"
+  client_secret: "your-client-secret"
+  tenant_id: "your-tenant-id"
+  contracts_folder: "Shared Documents/Contracts"
+
+# Claude AI Configuration
+claude:
+  api_key: "your-anthropic-api-key"
+  model: "claude-3-5-sonnet-20241022"
+  max_tokens: 4096
+  
+# Confluence Configuration
+confluence:
+  url: "https://yourcompany.atlassian.net"
+  username: "your-email@company.com"
+  api_token: "your-confluence-api-token"
+  space_key: "CONTRACTS"
+  parent_page_title: "Contract Summaries"
+
+# Processing Configuration
+processing:
+  batch_size: 5
+  max_retries: 3
+  retry_delay: 5
